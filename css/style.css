@@ -43,6 +43,39 @@ img {
 
 /* DETAILS */
 
+.detail-image {
+  display: block;
+  margin: 0 auto;
+  width: 100%; /* max-width for smaller images */
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+.photo-meta {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.photo-title,
+.photo-description {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.photo-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.portfolio-back-btn {
+  display: block;
+  width: fit-content;
+  margin: 1rem auto 0;
+}
+
 /* CONTACT */
 
 /* MEDIA QUERIES */
