@@ -36,7 +36,7 @@ let activeButton;
 
 function createCategoryButton(category) {
   return `
-        <button class="btn btn-outline-dark rounded-pill me-2
+        <button class="btn btn-outline-dark rounded-pill 
         ${category === "all" ? "active" : ""}" 
             id="${category}-btn"
         >

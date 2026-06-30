@@ -1,5 +1,5 @@
 const photographer = {
-  name: "Aria",
+  name: "Aria Smith Photography",
   tagline: "Photographer Tagline",
 };
 
