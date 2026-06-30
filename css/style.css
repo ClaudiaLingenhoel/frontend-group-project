@@ -3,8 +3,10 @@
 :root {
   --font-primary: "Syne", sans-serif;
   --color-primary: black;
-  --color-secondary: rgb(144, 144, 144);
+  --color-secondary: grey;
   --color-bg: rgb(255, 255, 255);
+  --color-accent-primary: rgb(172, 140, 163);
+  --color-accent-secondary: rgb(78, 5, 57);
 }
 
 body {
@@ -29,3 +31,10 @@ img {
 /* DETAILS */
 
 /* CONTACT */
+.btn-primary-1 {
+  background-color: var(--color-accent-primary);
+}
+.btn-primary-1:hover {
+  background-color: var(--color-accent-secondary);
+  color: white;
+}
