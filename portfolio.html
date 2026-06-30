@@ -43,18 +43,18 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  routerLink="/home"
-                  >Home</a
-                >
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="portfolio.html"
+                  >Portfolio</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="testimonials.html">Testimonials</a>
@@ -71,8 +71,15 @@
     <!-- MAIN CONTENT -->
     <main class="container py-5">
       <section class="mb-5">
-        <h1>Page Title</h1>
-        <p>Page content.</p>
+        <h1>Portfolio</h1>
+
+        <div id="category-buttons">
+          <!-- portfolio.js -->
+        </div>
+
+        <div class="portfolio-grid mt-3" id="portfolio-grid">
+          <!-- portfolio.js -->
+        </div>
       </section>
     </main>
 
