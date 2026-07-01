@@ -69,11 +69,58 @@
     </header>
 
     <!-- MAIN CONTENT -->
-    <main class="container py-5">
-      <section class="mb-5">
-        <h1>Page Title</h1>
-        <p>Page content.</p>
-      </section>
+    <main class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <h1 class="text-center mb-4">Contact Me</h1>
+
+            <form id="contactForm">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-control"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  class="form-control"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary-1 w-100">
+                Send Message
+              </button>
+
+              <p id="formMessage" class="mt-3 text-center"></p>
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
 
     <!-- FOOTER -->
@@ -102,6 +149,7 @@
               >Testimonials</a
             >
           </li>
+
           <li class="nav-item">
             <a class="nav-link px-2 text-dark" href="contact.html">Contact</a>
           </li>
