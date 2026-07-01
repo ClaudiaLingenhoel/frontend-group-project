@@ -29,7 +29,7 @@ form.addEventListener("submit", async (e) => {
     // fetch: sends the form data to email
     // POST: sends data securely
     // new FormData(form) collects all form fields automatically
-    const response = await fetch("EMAIL", {
+    const response = await fetch("add_email/endpoint_here", {
       method: "POST",
       body: new FormData(form),
     });
