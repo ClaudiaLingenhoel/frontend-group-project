@@ -17,7 +17,7 @@ if (!portfolioCategories[currentCategory]) {
 
 function createCategoryButton(category) {
   return `
-        <button class="btn btn-outline-dark rounded-pill" 
+        <button class="btn rounded-pill" 
             id="${category}-btn"
         >
             ${portfolioCategories[category].filter}
@@ -78,7 +78,7 @@ function createPhotoCard(photo) {
             class="portfolio-item"
         >
             <img
-            src="images/${photo.image}"
+            src="./images/${photo.image}"
             alt="${photo.title}"
             />
         </a>

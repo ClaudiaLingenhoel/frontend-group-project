@@ -32,7 +32,7 @@ const portfolioCategories = {
 const portfolioPhotos = [
   {
     id: 1,
-    title: "Untitled",
+    title: "Ben",
     category: "portraits",
     image: "portraits/portrait4.jpg",
     description:
@@ -41,7 +41,7 @@ const portfolioPhotos = [
   },
   {
     id: 2,
-    title: "Untitled",
+    title: "Ferris Wheel",
     category: "events",
     image: "events/event7.jpg",
     description: "A candid moment captured as it naturally unfolded.",
@@ -162,7 +162,7 @@ const portfolioPhotos = [
   },
   {
     id: 17,
-    title: "Untitled",
+    title: "Fly Agaric",
     category: "nature",
     image: "nature/nature7.jpg",
     description:
@@ -171,7 +171,7 @@ const portfolioPhotos = [
   },
   {
     id: 18,
-    title: "Untitled",
+    title: "Deer",
     category: "nature",
     image: "nature/nature1.jpg",
     description:
